@@ -1,1 +1,27 @@
-iPhown 0.5.1
+iPhown_0.5.1
+
+Español
+
+Esto es más una prueba de concepto que un virus, en sí…
+se espera que en lanzamientos futuros este codificado en shellcode, sea capaz de bindear el iphone a una conexión de ssh o que sea capaz de detonarse sin necesidad de tener un jailbreak en el iphone.
+
+Escenario:
+
+Alice quiere la aplicación X de la appstore
+pero la aplicación es bastante cara
+pero ella sabe que con el jailbreak puede instalar una aplicación llamada installous que ofrece aplicaciones "crackeadas" de forma gratuita.
+
+Mallory sabiendo que mucha gente hace esto sube una aplicación con código malicioso al servidor de installous (o cualquier otro), y recoge información de la gente que instala su aplicación.
+
+Alice baja la aplicación, la instala, y la usa normalmente sin que nunca se de cuenta.
+
+Consideraciones:
+
+- El iphone NO posee antivirus, por lo que no hay forma de que se sepa si hay alguna amenaza.
+- El iphone NO posse firewall, por lo que las conexiones entrantes y salientes no son interceptadas de ningún modo, y se permite todo el tráfico.
+- A la mayoría de la gente no le interesa si las aplicaciones que descarga contienen maleare, solo les interesa que funcionen.
+
+
+
+English
+Basically 
