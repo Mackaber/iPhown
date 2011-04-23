@@ -1,0 +1,25 @@
+iPhown 0.1
+
+Ejecutable --> iPhown
+Código fuente --> iPhown.c (debe ser compilado en un iphone)
+
+El virus en cuestión es iPhown
+Crea un archivo en sh, (para simplificar las cosas)
+y crea una conexión ftp a un servidor, al cual manda información sensitiva
+luego borra el archivo.
+
+El archivo ejecutable tiene que remplazar a otro archivo en una aplicación como .ipa (como las que se encuentran en installous), luego renombrarla por el nombre de la aplicación.
+
+La aplicación "crashea" después de que los comandos sean ejecutados, pero esto no importa realmente, porque ya tenemos lo que queremos :)
+(sin embargo se espera que en un futuro pueda correr la aplicación como sin nada).
+
+Cosas por hacer:
+
+- Cambiar el código para que use una librería de ftp handler en vez de shell script
+- Crear un executable con shell code 
+- Bindear el archivo al ejecutable en vez de remplazarlo
+- Buscar un método de reproducción
+- Implementarlo en metasploit como un módulo haciendo una conexión ssh en reversa
+- Implementarlo en Objective-C
+- Correrlo en iphone sin jailbreak 
+
