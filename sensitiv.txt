@@ -1,0 +1,14 @@
+Archivos Sensitivos para el iphone:
+
+-> Cookies
+/private/var/root/Library/Cookies/Cookies.plist
+/private/var/Keychains/keychain*
+/Library/Preferences/SystemConfiguration/com.apple*
+/Library/Preferences/SystemConfiguration/preferences.plist
+
+--> Twitter
+/mobile/Applications/E9A469D2-96F3-48FB-A4C8-36C5FD03D207/Library/Preferences/com*
+/mobile/Applications/E9A469D2-96F3-48FB-A4C8-36C5FD03D207/Library/Cookies/Cookies.plist
+/mobile/Applications/E9A469D2-96F3-48FB-A4C8-36C5FD03D207/Library/Caches/com.atebits.tweetie.databases/auto*
+/mobile/Applications/E9A469D2-96F3-48FB-A4C8-36C5FD03D207/Library/Caches/com.atebits.tweetie.databases/
+
