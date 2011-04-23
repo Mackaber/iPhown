@@ -1,0 +1,25 @@
+#----------------------------------------------------#
+Español:
+
+Requisitos:
+
+- Un iphone/ipad/ipod con jailbreak + openssh + compilador gcc (ambos se consiguen en cydia).
+- Un servidor de ftp (preferiblemente con un usuario preconfigurado únicamente para recibir los 
+archivos).
+- Una aplicación crackeada (pueden conseguirla del mismo installous o de http://apptrackr.org/ ;) ).
+- Una aplicación para desempaquetar la Aplicación (como tar en linux o 7zip en windows).
+
+1.- Primero pasan el código fuente (ya ajustado para soportar su servidor ftp) al iphone y lo compilan con gcc
+2.- Recuperan el archivo binario del iphone, lo usaremos más adelante
+3.- Luego necesitan abrir la aplicación, el archivo .ipa con tar o 7zip.
+4.- Remplazamos el archivo con nuestro binario; ejemplo:
+si la aplicación es Flashlight.ipa
+
+- entrar a Flashlight.ipa/Payload/Flashlight.app
+- intercambiar Flashlight por nuestro binario.
+
+NOTA: nuestro archivo binario debe tener el mismo nombre que el archivo por el cual lo vamos a remplazar.
+5.- Incluír en el mismo directorio que nustro binario el archivo inet.deb (este archivo contiente el cliente de ftp, necesario para subir los archivos).
+6.- Subirlo a apptrakr, o distribuirlo de otro modo, y esperar a que la magia suceda :D.
+
+#
