@@ -7,7 +7,7 @@ Requisitos:
 - Un servidor de ftp (preferiblemente con un usuario preconfigurado únicamente para recibir los 
 archivos).
 - Una aplicación crackeada (pueden conseguirla del mismo installous o de http://apptrackr.org/ ;) ).
-- Una aplicación para desempaquetar la Aplicación (como tar en linux o 7zip en windows).
+- Un programa para desempaquetar la Aplicación (como tar en linux o 7zip en windows).
 
 1.- Primero pasan el código fuente (ya ajustado para soportar su servidor ftp) al iphone y lo compilan con gcc
 2.- Recuperan el archivo binario del iphone, lo usaremos más adelante
